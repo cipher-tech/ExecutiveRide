@@ -3,11 +3,11 @@ import Head from 'next/head'
 import React from 'react'
 import { Footer, GenNavbar } from '../components'
 
-const ContactUs = () => {
+const ContactUs: React.FC = () => {
     return (
         <>
             <Head>
-                <title>Nile - Transportation and Logistics Responsive HTML5 Template</title>
+                <title>Contact Us</title>
                 <meta name="author" content="Nile-Theme" />
                 <meta name="robots" content="index follow" />
                 <meta name="googlebot" content="index follow" />
@@ -52,47 +52,6 @@ const ContactUs = () => {
                 </div>
                 {/* <!-- // Search  --> */}
 
-                {/* <!-- Get A Quote  --> */}
-                <div className="modal contact-modal fade bd-example-modal-lg" tabIndex={-1} role="dialog" aria-hidden="true">
-                    <div className="modal-dialog modal-lg">
-                        <div className="modal-content margin-top-150px background-main-color">
-                            <div className="row no-gutters">
-                                <div className="col-lg-5">
-                                    <img src="assets/img/contact-img.jpg" alt="" />
-                                </div>
-                                <div className="col-lg-7">
-                                    <div className="padding-30px">
-                                        <h3 className="padding-bottom-15px">Get A Free Quote</h3>
-                                        <form>
-                                            <div className="form-row">
-                                                <div className="form-group col-md-6">
-                                                    <label>Full Name</label>
-                                                    <input type="text" className="form-control" id="inputName4" placeholder="Name" />
-                                                </div>
-                                                <div className="form-group col-md-6">
-                                                    <label>Email</label>
-                                                    <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <label>Address</label>
-                                                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
-                                            </div>
-                                            <div className="form-group">
-                                                <label>Message</label>
-                                                <textarea className="form-control" id="exampleFormControlTextarea1" rows={3}></textarea>
-                                            </div>
-                                            <a href="#" className="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- // Get A Quote  --> */}
-
-
                 <div className="page-title">
                     <div className="container">
                         <div className="padding-tb-120px">
@@ -112,21 +71,23 @@ const ContactUs = () => {
                         <div className="row">
 
                             <div className="col-lg-6 sm-mb-45px">
-                                <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p> 
+                                    Leave us a message, we'll be happy to reply promtly
+                                </p>
                                 <h5>Phone :</h5>
                                 <span className="d-block"><i className="fa fa-phone text-main-color margin-right-10px" aria-hidden="true"></i> +222 333 019</span>
                                 <span className="d-block sm-mb-30px"><i className="fa fa-mobile text-main-color margin-right-10px" aria-hidden="true"></i> +222 333 019</span>
                                 <h5 className="margin-top-20px">Address :</h5>
-                                <span className="d-block sm-mb-30px"><i className="fa fa-map text-main-color margin-right-10px" aria-hidden="true"></i> NewYork 1234 Main St </span>
+                                <span className="d-block sm-mb-30px"><i className="fa fa-map text-main-color margin-right-10px" aria-hidden="true"></i> Ikeja Lagos </span>
                                 <h5 className="margin-top-20px">Email :</h5>
-                                <span className="d-block sm-mb-30px"><i className="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> info@yoursite.com </span>
+                                <span className="d-block sm-mb-30px"><i className="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> theexecutiveride@gmail.com </span>
                             </div>
 
                             <div className="col-lg-6">
                                 <div className="contact-modal">
                                     <div className="background-main-color">
                                         <div className="padding-30px">
-                                            <h3 className="padding-bottom-15px">Get A Free Quote</h3>
+                                            <h3 className="padding-bottom-15px">Message</h3>
                                             <form>
                                                 <div className="form-row">
                                                     <div className="form-group col-md-6">

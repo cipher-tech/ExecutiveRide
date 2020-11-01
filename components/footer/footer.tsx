@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
                                     <div className="icon margin-top-5px"><span className="icon_pin_alt"></span></div>
                                     <div className="text">
                                         <span className="title-in">Location :</span> <br />
-                                        <span className="font-weight-500 text-uppercase">US - Los Angeles</span>
+                                        <span className="font-weight-500 text-uppercase">Ikeja Lagos</span>
                                     </div>
                                 </div>
                             </div>

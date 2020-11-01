@@ -67,27 +67,85 @@ const Services = () => {
 
 
 				<div className="padding-tb-100px">
-					<div className="container">
+					<div className="container justify-content-center">
 						<div className="row">
 
-							<div className="col-lg-9">
+							<div className="col-lg-12">
 								<div className="service-slider-img margin-bottom-30px">
 									<ul className="slider-1">
-										<li><img src="assets/img/service_1.jpg" alt="" /></li>
-										<li><img src="assets/img/service_2.jpg" alt="" /></li>
-										<li><img src="assets/img/service_3.jpg" alt="" /></li>
+										<li className="row justify-content-center"><img src="assets/img/service_3.jpg" alt="" /></li>
+										<li className="row justify-content-center"><img src="assets/img/service_2.jpg" alt="" /></li>
+										<li className="row justify-content-center"><img src="assets/img/service_1.jpg" alt="" /></li>
 									</ul>
 								</div>
 
-								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								<p>The Executive Ride Investo’ has emerged with a great high-tech solutions to put to an end the issues that
+									surrounds Investors and its investments especially in our Systems of specializations.
+									The Executive Ride Investo’ the great Empire for Wealth, Assets and Investment management. The specialty in
+									building of competent and influential investors all overthe world. Being fully equipped with unlimited capacities ,
+									great modern skills , highly organized in the mode of operations with enough professional bodies (Man Power)
+								</p>
+								<div className="section padding-tb-100px section-ba-1">
+									<div className="container">
+										{/* <!-- Title --> */}
+										<div className="section-title margin-bottom-40px">
+											<div className="row justify-content-center">
+												<div className="col-lg-7">
+													<div className="icon text-main-color"><i className="fa fa-truck"></i></div>
+													<div className="h2">Our Service</div>
+													<div className="des">
+														Here includes the services or the plans of the company.
+                                </div>
+												</div>
+											</div>
+										</div>
+										{/* <!-- // End Title --> */}
 
-								<h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
+										<div className="row justify-content-center">
 
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
+											<div className="col-lg-3 col-md-6">
+												<div className="service-icon-box">
+													<div className="icon"><img src="assets/icons/service-dark-1.png" alt="" /></div>
+													<a href="#" className="title h2">Capital Growth Investment.</a>
+													{/* <div className="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div> */}
+												</div>
+											</div>
 
 
-								<div id="accordion" className="nile-accordion margin-top-30px sm-mb-45px">
+											<div className="col-lg-3 col-md-6">
+												<div className="service-icon-box">
+													<div className="icon"><img src="assets/icons/service-dark-2.png" alt="" /></div>
+													<a href="#" className="title h2">Hire Purchase Investment</a>
+													{/* <div className="des">
+                                    The Tariff gears ensuring that ourInvestors or potential Investor out there don’t loss there hard earned money for
+                                    investing wrongly or going into partnership with the wrong people when it comes to investment.
+                                </div> */}
+												</div>
+											</div>
+
+
+											<div className="col-lg-3 col-md-6">
+												<div className="service-icon-box">
+													<div className="icon"><img src="assets/icons/service-dark-3.png" alt="" /></div>
+													<a href="#" className="title h2">Real Estate</a>
+													{/* <div className="des">Ut elit tellus, luctus nec magna mattis et,
+                                pulvinar dapibus lorem leo ultricies et vitae enim.</div> */}
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<h2>Futher More</h2>
+
+								<p>It’s quite alarming the rate at which Investors are loosing their Hard-Earned money in the motion of doing
+									investmentfor profits purposes , mostly young investors, even big investor has thus experienced great
+									challenges facing investments. (Reasons) Most investors go into business they are ignorant of.
+									The Executive ride welcomes you with MASSIVE SOLUTIONS in her wings forthe investors in our system.
+								</p>
+
+
+								{/* <div id="accordion" className="nile-accordion margin-top-30px sm-mb-45px">
 									<div className="card">
 										<div className="card-header" id="headingOne">
 											<h5 className="mb-0">
@@ -122,82 +180,13 @@ const Services = () => {
 												Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </div>
 										</div>
 									</div>
-								</div>
+								</div> */}
 
 
 
 							</div>
 
 							<div className="col-lg-3">
-
-								{/* <div className="background-main-color margin-bottom-40px">
-									<div className="services-list">
-										<ul>
-											<li><a href="service-single.html">Air Freight</a></li>
-											<li><a href="service-single.html">Ocean Freight</a></li>
-											<li><a href="service-single.html">Packaging and Storage</a></li>
-											<li className="active"><a href="service-single.html">Cargo Transportation </a></li>
-											<li><a href="service-single.html">Fast Delivery</a></li>
-											<li><a href="service-single.html">Railroad Transportation</a></li>
-										</ul>
-									</div>
-								</div> */}
-
-
-
-
-								<div className="background-white margin-bottom-40px">
-									<div className="nile-widget contact-widget">
-										<div className="padding-30px">
-											<div className="margin-bottom-60px">
-												<h2 className="title">Location</h2>
-												<div className="contact-info opacity-9">
-													<div className="icon margin-top-5px"><span className="icon_pin_alt"></span></div>
-													<div className="text">
-														<span className="title-in">Location :</span> <br />
-														<span className="font-weight-500 text-uppercase">US - Los Angeles</span>
-													</div>
-												</div>
-											</div>
-											<div className="call_center">
-												<h2 className="title">Call Center</h2>
-												<div className="contact-info opacity-9">
-													<div className="icon  margin-top-5px"><span className="icon_phone"></span></div>
-													<div className="text">
-														<span className="title-in">Call Us :</span><br />
-														<span className="font-weight-500 text-uppercase">00222123333019</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="contact-modal">
-									<div className="background-grey-4 text-white">
-										<div className="padding-30px">
-											<h3 className="padding-bottom-15px">Get A Free Quote</h3>
-											<form>
-												<div className="form-row">
-													<div className="form-group col-md-12">
-														<label>Full Name</label>
-														<input type="text" className="form-control" id="inputName44" placeholder="Name" />
-													</div>
-													<div className="form-group col-md-12">
-														<label>Email</label>
-														<input type="email" className="form-control" id="inputEmail44" placeholder="Email" />
-													</div>
-												</div>
-												<div className="form-group">
-													<label>Message</label>
-													<textarea className="form-control" id="exampleFormControlTextarea11" rows={3}></textarea>
-												</div>
-												<a href="#" className="btn-sm btn-lg btn-block background-main-color text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
-											</form>
-										</div>
-									</div>
-								</div>
-
 							</div>
 
 						</div>

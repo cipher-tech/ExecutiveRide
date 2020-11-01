@@ -16,8 +16,8 @@ export const GenNavbar: React.FC = () => {
                                         <div className="col-xl-8 col-lg-12">
                                             <div className="row">
                                                 <div className="col-md-4"><i className="fa fa-phone margin-right-10px"></i> 00222 123 333 019</div>
-                                                <div className="col-md-4"><i className="fa fa-envelope-o margin-right-10px"></i> info@your-site.com</div>
-                                                <div className="col-md-4"><i className="fa fa-map-marker margin-right-10px"></i> 1105 Saudi Arabia - Street, CA</div>
+                                                <div className="col-md-4"><i className="fa fa-envelope-o margin-right-10px"></i> theexecutiveride@gmail.com</div>
+                                                <div className="col-md-4"><i className="fa fa-map-marker margin-right-10px"></i> 1103 Ikeja, Lagos</div>
                                             </div>
                                         </div>
                                         <div className="col-xl-4 d-none d-xl-block">
@@ -40,16 +40,16 @@ export const GenNavbar: React.FC = () => {
 
                                                 </div>
 
-                                                <div className="col-lg-6">
+                                                {/* <div className="col-lg-6"> */}
                                                     {/* <!--  Social --> */}
-                                                    <ul className="social-media list-inline text-right margin-0px text-white">
+                                                    {/* <ul className="social-media list-inline text-right margin-0px text-white">
                                                         <li className="list-inline-item"><a className="facebook" href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                         <li className="list-inline-item"><a className="youtube" href="#"><i className="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                                         <li className="list-inline-item"><a className="linkedin" href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                                         <li className="list-inline-item"><a className="twitter" href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                    </ul>
+                                                    </ul> */}
                                                     {/* <!-- // Social --> */}
-                                                </div>
+                                                {/* </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -73,6 +73,9 @@ export const GenNavbar: React.FC = () => {
                                                 </li>
                                                 <li className="!has-dropdown">
                                                     <a href="/services">Services</a>
+                                                </li>
+                                                <li className="!has-dropdown">
+                                                    <a href="/contactUs">Contact Us</a>
                                                 </li>
                                             </ul>
 
@@ -101,12 +104,20 @@ export const GenNavbar: React.FC = () => {
                             </div>
                             <div className="col-lg-7">
                                 <div className="padding-30px">
-                                    <h3 className="padding-bottom-15px">Contact Us</h3>
+                                    <h3 className="padding-bottom-15px">Sign Up</h3>
                                     <form>
                                         <div className="form-row">
                                             <div className="form-group col-md-6">
-                                                <label>Full Name</label>
-                                                <input type="text" className="form-control" id="inputName4" placeholder="Name" />
+                                                <label>First Name</label>
+                                                <input type="text" className="form-control" id="inputName4" placeholder="First Name" />
+                                            </div>
+                                            <div className="form-group col-md-6">
+                                                <label>Last Name</label>
+                                                <input type="text" className="form-control" id="inputName4" placeholder="Last Name" />
+                                            </div>
+                                            <div className="form-group col-md-6">
+                                                <label>Phone Number</label>
+                                                <input type="text" className="form-control" id="inputName4" placeholder="Phone Number" />
                                             </div>
                                             <div className="form-group col-md-6">
                                                 <label>Email</label>
@@ -114,13 +125,13 @@ export const GenNavbar: React.FC = () => {
                                             </div>
                                         </div>
                                         <div className="form-group">
-                                            <label>Address</label>
-                                            <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                                            <label>Password</label>
+                                            <input type="text" className="form-control" id="inputAddress" placeholder="Password" />
                                         </div>
-                                        <div className="form-group">
+                                        {/* <div className="form-group">
                                             <label>Message</label>
                                             <textarea className="form-control" id="exampleFormControlTextarea1" rows={3}></textarea>
-                                        </div>
+                                        </div> */}
                                         <a href="#" className="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
                                     </form>
                                 </div>

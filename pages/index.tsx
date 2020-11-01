@@ -53,15 +53,15 @@ const Home1 = () => {
 
                             {/* <!-- Up Head --> */}
                             <div className="up-head d-none d-lg-block">
-                                <div className="row">
-                                    <div className="col-xl-8 col-lg-12">
+                                <div className="row justify-content-center">
+                                    <div className="col-xl-9 col-lg-12">
                                         <div className="row">
                                             <div className="col-md-4"><i className="fa fa-phone margin-right-10px"></i> 00222 123 333 019</div>
-                                            <div className="col-md-4"><i className="fa fa-envelope-o margin-right-10px"></i> info@your-site.com</div>
-                                            <div className="col-md-4"><i className="fa fa-map-marker margin-right-10px"></i> 1105 Saudi Arabia - Street, CA</div>
+                                            <div className="col-md-4"><i className="fa fa-envelope-o margin-right-10px"></i> theexecutiveride@gmail.com</div>
+                                            <div className="col-md-4"><i className="fa fa-map-marker margin-right-10px"></i> 1103 Ikeja, Lagos</div>
                                         </div>
                                     </div>
-                                    <div className="col-xl-4 d-none d-xl-block">
+                                    <div className="col-xl-3 d-none d-xl-block">
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 {/* <!-- lang dropdown --> */}
@@ -81,18 +81,18 @@ const Home1 = () => {
 
                                             </div>
 
-                                            <div className="col-lg-6">
+                                            {/* <div className="col-lg-6"> */}
                                                 {/* <!--  Social --> */}
-                                                <ul className="social-media list-inline text-right margin-0px text-white">
+                                                {/* <ul className="social-media list-inline text-right margin-0px text-white">
                                                     <li className="list-inline-item"><a className="facebook" href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                     <li className="list-inline-item"><a className="youtube" href="#"><i className="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                                     <li className="list-inline-item"><a className="linkedin" href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                                     <li className="list-inline-item"><a className="google" href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                                                     <li className="list-inline-item"><a className="twitter" href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
                                                     <li className="list-inline-item"><a className="rss" href="#"><i className="fa fa-rss" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                </ul> */}
                                                 {/* <!-- // Social --> */}
-                                            </div>
+                                            {/* </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ const Home1 = () => {
                                             </li>
                                             <li className="!ahas-dropdown">
                                                 {/* <Link > */}
-                                                <a href="/ContactUs">Contact Us</a>
+                                                <a href="/contactUs">Contact Us</a>
                                             </li>
                                             <li className="!has-dropdown"><a href="/services">Services</a>
                                                
@@ -345,7 +345,7 @@ const Home1 = () => {
                                 </div>
                                 <div className="col-sm-6">
                                     <div className="cart-service background-main-color">
-                                        <div className="icon"><img src="assets/icons/service-light-2.png" alt="" /></div>
+                                        <div className="icon"><img src="assets/icons/service-light-1.png" alt="" /></div>
                                         <h2>Hire Purchase Investment</h2>
                                         <hr />
                                         <div className="text">
@@ -356,7 +356,7 @@ const Home1 = () => {
                                 </div>
                                 <div className="col-sm-6">
                                     <div className="cart-service background-main-color">
-                                        <div className="icon"><img src="assets/icons/service-light-3.png" alt="" /></div>
+                                        <div className="icon"><img src="assets/icons/service-light-2.png" alt="" /></div>
                                         <h2>Capital Growth Investment</h2>
                                         <hr />
                                         <div className="text">
@@ -564,42 +564,6 @@ const Home1 = () => {
                                 <div className="padding-25px">
                                     <a href="#" className="nile-bottom sm-block">Invest Now</a>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div className="price-table active">
-                                <div className="title main-color"> Second category</div>
-                                {/* <div className="price"><span>₦</span>10,000,000</div> */}
-                                <div className="per-mile">unavailable now</div>
-                                {/* <ul className="elements">
-                                    <li> Total Earning</li>
-                                    <li>15,000,000 </li>
-                                    <li>MONTHLY INSTALLMENT:</li>
-                                    <li>₦ 1,000,000 </li>
-                                    <li>Duration</li>
-                                    <li>16 months</li>
-                                </ul>
-                                <div className="padding-25px">
-                                    <a href="#" className="nile-bottom sm-block">Invest Now</a>
-                                </div> */}
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div className="price-table">
-                                <div className="title main-color"> Third category</div>
-                                {/* <div className="price"><span>₦</span>20,000,000</div> */}
-                                <div className="per-mile">unavailable now</div>
-                                {/* <ul className="elements">
-                                    <li> Total Earning</li>
-                                    <li>36,800,000 </li>
-                                    <li>MONTHLY INSTALLMENT:</li>
-                                    <li>₦ 2,300,000 </li>
-                                    <li>Duration</li>
-                                    <li>16 months</li>
-                                </ul>
-                                <div className="padding-25px">
-                                    <a href="#" className="nile-bottom sm-block">Invest Now</a>
-                                </div> */}
                             </div>
                         </div>
                         {/* <!-- // end item --> */}

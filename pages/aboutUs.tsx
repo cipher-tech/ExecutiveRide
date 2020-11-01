@@ -87,7 +87,7 @@ const aboutUs = () => {
                                 challenges facing investments. (Reasons) Most investors go into business they are ignorant of.
                                 The Executive ride welcomes you with MASSIVE SOLUTIONS in her wings forthe investors in our system.
                             </div>
-                            <a href="#" className="nile-bottom sm">Read More</a>
+                            {/* <a href="#" className="nile-bottom sm">Read More</a> */}
 
                         </div>
                         <div className="col-lg-6">
